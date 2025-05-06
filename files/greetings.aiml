@@ -41,29 +41,12 @@
 
   <category>
     <pattern>COMMENT * VAS *</pattern>
-    <template>
-        <srai>FORME</srai>
-    </template>
-  </category>
-
-  <category>
     <pattern>COMMENT * VA *</pattern>
+    <pattern>COMMENT VAS *</pattern>
+    <pattern>* FORME *</pattern>
     <template>
         <srai>FORME</srai>
     </template>
   </category>
 
-  <category>
-    <pattern>COMMENT VAS *</pattern>
-    <template>
-       <srai>FORME</srai>
-    </template>
-  </category>
-
-  <category>
-   <pattern>* FORME *</pattern>
-   <template>
-       <srai>FORME</srai>
-   </template>
-  </category>
 </aiml>
