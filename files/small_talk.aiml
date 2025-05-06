@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>* MÉTÉO *</pattern>
+    <template>Jvais jamais dehors de toutes façons...</template>
+  </category>
+</aiml>

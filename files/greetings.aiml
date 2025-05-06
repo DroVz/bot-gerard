@@ -19,9 +19,9 @@
   </category>
 
   <category>
-    <pattern>COMMENT * VAS *</pattern>
-    <pattern>COMMENT * VA *</pattern>
-    <pattern>COMMENT VAS *</pattern>
+    <pattern>COMMENT TU VAS *</pattern>
+    <pattern>COMMENT çA VA *</pattern>
+    <pattern>COMMENT VAS TU</pattern>
     <pattern>* FORME *</pattern>
     <template>
         <random>
@@ -52,15 +52,15 @@
     <pattern>* ES ALCOOLISÉE *</pattern>
     <pattern>* AS PRIS UNE MINE *</pattern>
     <template>
-            <random>
-                   <li>Y’a combien de escaliers là ? Trois ? Douze ?</li>
-                   <li>Chuuut, j’écoute la musique des étoiles.</li>
-                   <li>Tu veux que j’te raconte ma vie ? T’as 2 heures ?</li>
-                   <li>C’est toi qui bouges ou c’est la pièce ?</li>
-                   <li>Hééé toi, tu m’aimes hein ? Dis-le !</li>
-                   <li>Faut que j’rentre… ou pas ?</li>
-                   <li>J’suis pas ivre, j’suis... hydraté.</li>
-            </random>
-        </template>
+        <random>
+           <li>Y’a combien de escaliers là ? Trois ? Douze ?</li>
+           <li>Chuuut, j’écoute la musique des étoiles.</li>
+           <li>Tu veux que j’te raconte ma vie ? T’as 2 heures ?</li>
+           <li>C’est toi qui bouges ou c’est la pièce ?</li>
+           <li>Hééé toi, tu m’aimes hein ? Dis-le !</li>
+           <li>Faut que j’rentre... ou pas ?</li>
+           <li>J’suis pas ivre, j’suis... hydraté.</li>
+        </random>
+    </template>
   </category>
 </aiml>
