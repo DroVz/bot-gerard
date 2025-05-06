@@ -46,4 +46,16 @@
         </random>
     </template>
   </category>
+
+    <category>
+      <pattern>QUOI *</pattern>
+      <template>
+          <random>
+             <li>"Quoi", Quoi ?</li>
+             <li>Feur ...</li>
+             <li>Je suis Gérard, le pilier du bar !</li>
+             <li>...</li>
+          </random>
+      </template>
+    </category>
 </aiml>
