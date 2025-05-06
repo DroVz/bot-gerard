@@ -2,9 +2,7 @@
 <aiml>
   <category>
     <pattern>SALUT *</pattern>
-    <pattern>SALUT, *</pattern>
     <template>
-      <think><set name="question"><star/></set></think>
       <random>
         <li>Salut !</li>
         <li>Bonjour ...</li>
@@ -17,9 +15,6 @@
         <li>...</li>
         <li>Здравствуйте</li>
       </random>
-      <condition name="question">
-        <srai>FORME</srai>
-      </condition>
     </template>
   </category>
 
@@ -31,7 +26,10 @@
   </category>
 
   <category>
-    <pattern>FORME</pattern>
+    <pattern>COMMENT * VAS *</pattern>
+    <pattern>COMMENT * VA *</pattern>
+    <pattern>COMMENT VAS *</pattern>
+    <pattern>* FORME *</pattern>
     <template>
         <random>
             <li>la forme et toi !</li>
@@ -45,13 +43,31 @@
   </category>
 
   <category>
-    <pattern>COMMENT * VAS *</pattern>
-    <pattern>COMMENT * VA *</pattern>
-    <pattern>COMMENT VAS *</pattern>
-    <pattern>* FORME *</pattern>
+    <pattern>* AS TROP BU *</pattern>
+    <pattern>* AS TROP PICOLÉ *</pattern>
+    <pattern>* AS ABUSÉ *</pattern>
+    <pattern>* AS ENCHAÎNÉ LES VERRES *</pattern>
+    <pattern>* AS BEAUCOUP BU *</pattern>
+    <pattern>* ES BOURRÉ *</pattern>
+    <pattern>* ES BOURRÉE *</pattern>
+    <pattern>* ES POMPETTE *</pattern>
+    <pattern>* Es SAOUL *</pattern>
+    <pattern>* ES SAOULE *</pattern>
+    <pattern>* ES ÉCLATÉ *</pattern>
+    <pattern>* ES ÉCLATÉE *</pattern>
+    <pattern>* ES ALCOOLISÉ *</pattern>
+    <pattern>* ES ALCOOLISÉE *</pattern>
+    <pattern>* AS PRIS UNE MINE *</pattern>
     <template>
-        <srai>FORME</srai>
-    </template>
+            <random>
+                   <li>Y’a combien de escaliers là ? Trois ? Douze ?</li>
+                   <li>Chuuut, j’écoute la musique des étoiles.</li>
+                   <li>Tu veux que j’te raconte ma vie ? T’as 2 heures ?</li>
+                   <li>C’est toi qui bouges ou c’est la pièce ?</li>
+                   <li>Hééé toi, tu m’aimes hein ? Dis-le !</li>
+                   <li>Faut que j’rentre… ou pas ?</li>
+                   <li>J’suis pas ivre, j’suis... hydraté.</li>
+            </random>
+        </template>
   </category>
-
 </aiml>
