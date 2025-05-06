@@ -19,10 +19,7 @@
   </category>
 
   <category>
-    <pattern>COMMENT TU VAS *</pattern>
-    <pattern>COMMENT çA VA *</pattern>
-    <pattern>COMMENT VAS TU</pattern>
-    <pattern>* FORME *</pattern>
+    <pattern><set>formes</set></pattern>
     <template>
         <random>
             <li>la forme et toi !</li>
@@ -36,21 +33,7 @@
   </category>
 
   <category>
-    <pattern>* AS TROP BU *</pattern>
-    <pattern>* AS TROP PICOLÉ *</pattern>
-    <pattern>* AS ABUSÉ *</pattern>
-    <pattern>* AS ENCHAÎNÉ LES VERRES *</pattern>
-    <pattern>* AS BEAUCOUP BU *</pattern>
-    <pattern>* ES BOURRÉ *</pattern>
-    <pattern>* ES BOURRÉE *</pattern>
-    <pattern>* ES POMPETTE *</pattern>
-    <pattern>* Es SAOUL *</pattern>
-    <pattern>* ES SAOULE *</pattern>
-    <pattern>* ES ÉCLATÉ *</pattern>
-    <pattern>* ES ÉCLATÉE *</pattern>
-    <pattern>* ES ALCOOLISÉ *</pattern>
-    <pattern>* ES ALCOOLISÉE *</pattern>
-    <pattern>* AS PRIS UNE MINE *</pattern>
+    <pattern><set>drunk</set></pattern>
     <template>
         <random>
            <li>Y’a combien de escaliers là ? Trois ? Douze ?</li>
