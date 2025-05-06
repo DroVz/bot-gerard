@@ -40,14 +40,14 @@
   </category>
 
   <category>
-    <pattern>COMMENT * VAS</pattern>
+    <pattern>COMMENT * VAS *</pattern>
     <template>
         <srai>FORME</srai>
     </template>
   </category>
 
   <category>
-    <pattern>COMMENT * VA</pattern>
+    <pattern>COMMENT * VA *</pattern>
     <template>
         <srai>FORME</srai>
     </template>
