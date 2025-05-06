@@ -3,8 +3,8 @@
   <category>
     <pattern>SALUT *</pattern>
     <pattern>SALUT, *</pattern>
-    <pattern>SALUT, <srai>FORME</srai></pattern>
     <template>
+      <think><set name="question"><star/></set></think>
       <random>
         <li>Salut !</li>
         <li>Bonjour ...</li>
