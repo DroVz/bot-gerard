@@ -17,6 +17,9 @@
         <li>...</li>
         <li>Здравствуйте</li>
       </random>
+      <condition name="question">
+        <srai>FORME</srai>
+      </condition>
     </template>
   </category>
 
