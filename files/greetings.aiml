@@ -19,7 +19,7 @@
   </category>
 
   <category>
-    <pattern><set>salutes</set> *</pattern>
+    <pattern><set>salutes</set></pattern>
     <template>
       <srai>SALUT</srai>
     </template>
