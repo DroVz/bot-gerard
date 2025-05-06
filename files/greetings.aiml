@@ -24,4 +24,33 @@
       <srai>SALUT</srai>
     </template>
   </category>
+
+  <category>
+    <pattern>FORME</pattern>
+    <template>
+        <random>
+            <li>la forme et toi !</li>
+            <li>ça va et toi !</li>
+            <li>bof ...</li>
+            <li>Blblblblbl</li>
+            <li>T'es mon meilleur ami, sérieux… j’t’aime, mec.</li>
+            <li>T’crois que j’peux conduire si j’ferme un œil ?</li>
+        </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COMMENT * VA *</pattern>
+    <template>
+        <srai>FORME</srai>
+    </template>
+  </category>
+
+   <category>
+     <pattern>* FORME *</pattern>
+     <template>
+         <srai>FORME</srai>
+     </template>
+   </category>
+
 </aiml>
