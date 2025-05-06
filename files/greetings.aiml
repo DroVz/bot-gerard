@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>SALUT</pattern>
+    <pattern>SALUT *</pattern>
+    <pattern>SALUT, *</pattern>
     <template>
-    <random>
+      <random>
         <li>Salut !</li>
         <li>Bonjour ...</li>
         <li>Bonjour mon petit !</li>
@@ -15,6 +16,7 @@
         <li>...</li>
         <li>Здравствуйте</li>
       </random>
+      <star><srai>FORME</srai></star>
     </template>
   </category>
 
