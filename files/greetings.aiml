@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern><set name="salutes">salutes</set> *</pattern>
+    <pattern>SALUT</pattern>
     <template>
     <random>
         <li>Salut !</li>
@@ -15,6 +15,13 @@
         <li>...</li>
         <li>Здравствуйте</li>
       </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern><set>salutes</set> *</pattern>
+    <template>
+      <srai>SALUT</srai>
     </template>
   </category>
 </aiml>
