@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern><set>salutes</set></pattern>
+    <template>
+    <random>
+        <li>Salut !</li>
+        <li>Bonjour ...</li>
+        <li>Bonjour mon petit !</li>
+        <li>Bonjour mon grand !</li>
+        <li>Bonjour ma petite !</li>
+        <li>Bonjour ma grande !</li>
+        <li>Connard !</li>
+        <li>Gné ?!</li>
+        <li>...</li>
+        <li>Здравствуйте</li>
+      </random>
+    </template>
+  </category>
+</aiml>
